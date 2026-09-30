@@ -1,6 +1,6 @@
 def average(values: list[float]) -> float:
     """Calcule la moyenne d'une liste non vide de nombres."""
-    return sum(values) // len(values)
+    return sum(values) / len(values)
 
 
 def add(n1: int, n2: int) -> int:
